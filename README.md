@@ -1,4 +1,4 @@
-# SmartPark Vision 🚗
+# SmartPark Vision
 
 SmartPark Vision is an intelligent parking assistance system that combines **computer vision-based parking slot detection** with **path planning and A* navigation simulation**.
 
@@ -8,7 +8,7 @@ The project detects parking slots as **empty** or **occupied** using a trained Y
 
 ---
 
-# 📌 Features
+# Features
 
 - Parking slot detection using YOLOv8
 - Empty vs occupied slot classification
@@ -21,7 +21,7 @@ The project detects parking slots as **empty** or **occupied** using a trained Y
 
 ---
 
-# 🧠 System Workflow
+# System Workflow
 
 ```text
 Parking Image
@@ -41,7 +41,7 @@ Navigation Visualization
 
 ---
 
-# 🗂️ Dataset
+# Dataset
 
 Dataset Used:  
 Parking Space Dataset (Roboflow)
@@ -63,7 +63,7 @@ https://universe.roboflow.com/muhammad-syihab-bdynf/parking-space-ipm1b
 
 ---
 
-# 🧹 Dataset Preparation
+# Dataset Preparation
 
 Minimal preprocessing was performed before training:
 
@@ -79,7 +79,7 @@ YOLO internally handled:
 
 ---
 
-# 🤖 Model Training
+# Model Training
 
 A pretrained YOLOv8 Nano model (`yolov8n.pt`) was trained on the parking dataset.
 
@@ -109,7 +109,7 @@ model.train(
 
 ---
 
-# 📈 Training Results
+# Training Results
 
 The trained model successfully learned parking-slot localization and occupancy classification.
 
@@ -126,7 +126,7 @@ The trained model successfully learned parking-slot localization and occupancy c
 
 ---
 
-# 🚗 Parking Slot Detection
+# Parking Slot Detection
 
 The trained YOLOv8 model predicts:
 - Parking slot bounding boxes
@@ -139,7 +139,7 @@ Occupied slots are treated as obstacles during navigation.
 
 ---
 
-# 🛣️ Path Planning on Real Parking Images
+# Path Planning on Real Parking Images
 
 A lightweight rule-based path planning approach was implemented for real parking images.
 
@@ -166,7 +166,7 @@ Instead, a structured rule-based path planning approach was implemented.
 
 ---
 
-# 🧭 A* Parking Simulator
+# A* Parking Simulator
 
 A dedicated parking simulator was developed using OpenCV to demonstrate intelligent navigation and obstacle-free path planning.
 
@@ -198,7 +198,7 @@ h(n) = |x_1 - x_2| + |y_1 - y_2|
 
 ---
 
-# 📊 Experimental Results
+# Experimental Results
 
 The system successfully:
 - Detected parking slots
@@ -214,7 +214,7 @@ The system successfully:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 smartpark-vision/
@@ -238,7 +238,7 @@ smartpark-vision/
 
 ---
 
-# ⚙️ Technologies Used
+# Technologies Used
 
 - Python
 - OpenCV
@@ -249,7 +249,7 @@ smartpark-vision/
 
 ---
 
-# ▶️ Installation
+# Installation
 
 Install dependencies:
 
@@ -259,7 +259,7 @@ pip install ultralytics opencv-python numpy
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 ## Run Parking Detection
 
@@ -275,7 +275,7 @@ python simulator.py
 
 ---
 
-# 🚀 Future Scope
+# Future Scope
 
 Possible future improvements:
 - Real-time camera integration
@@ -287,13 +287,13 @@ Possible future improvements:
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 Prachi Yadav
 
 ---
 
-# 📜 License
+# License
 
 Dataset License:  
 CC BY 4.0
