@@ -289,7 +289,7 @@ Possible future improvements:
 
 # 👩‍💻 Author
 
-Prachi
+Prachi Yadav
 
 ---
 
