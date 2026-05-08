@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['empty', 'occupied']
+
+roboflow:
+  workspace: muhammad-syihab-bdynf
+  project: parking-space-ipm1b
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/muhammad-syihab-bdynf/parking-space-ipm1b/dataset/3

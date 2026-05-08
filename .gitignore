@@ -1,0 +1,12 @@
+runs/
+train/
+valid/
+test/
+.ipynb_checkpoints/
+__pycache__/
+*.cache
+*.ipynb
+yolov8n.pt
+README.roboflow.txt
+drive.py
+simSimple.py
